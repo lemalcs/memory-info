@@ -1,0 +1,10 @@
+[package]
+name = "memory-info"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = "0.2" # Provides useful type aliases
+kernel32-sys = "0.2" # Provides interaction with kernel32.dll API of Windows
